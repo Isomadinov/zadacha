@@ -1,0 +1,29 @@
+mkdir git_exercise
+cd git_exercise/
+git init
+git add readme.txt 
+git commit -m "nachalo"
+git branch
+git checkout -b master1
+git branch 
+git commit -m "1.Вычислить объем и площадь полной поверхности призмы, в основании которой лежит правильный пятиугольник, высота которой равна полупериметру основания. Известна сторона пятиугольника."
+git add pythonVAR10Z11.py 
+git commit -m "1.Вычислить объем и площадь полной поверхности призмы, в основании которой лежит правильный пятиугольник, высота которой равна полупериметру основания. Известна сторона пятиугольника."
+git branch
+git checkout master
+git branch 
+git checkout -b master2
+git branch
+ git add pythonVAR10Z2.py 
+ git commit -m "Определить, попадает ли точка М(х,y), в кольцо с центром в начале координат и радиусами R и r. Если попадает, то выяснить, что больше: площадь кольца или площадь круга с радиусом ОМ. O – начало координат."
+git branch
+git merge master1
+git commit -m "sl"
+git merge master1
+git add info.py 
+git remote add origin https://github.com/Isomadinov/zadacha.git
+git push -u origin main
+git branch -M main
+git push -u origin main
+git commit -m "info"
+git push -u origin main
